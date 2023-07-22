@@ -1,0 +1,3 @@
+$if[$checkContains[$toLowercase[$message[prompt]];what is comet;what's comet]==true]
+Comet is a team of software engineers and designers who create products out of passion.
+$endif
