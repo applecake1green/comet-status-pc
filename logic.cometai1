@@ -1,11 +1,5 @@
 $if[$checkContains[$toLowercase[$message[prompt]];what is comet;what's comet]==true]
 Comet is a team of software engineers and designers who create products out of passion.
 $else
-Hmm..$randomText[I'm not sure about that one;I don't know that one;I'm unsure what you mean;I'm struggling to think]! I've just sent a message to the developers about your prompt so they can add it $randomString[to my ai;to me].
-$webhookSend[$var[webhookURL];
-# Unknown Phrase
-## Model
-Comet AI Beta (ID: $message[model])
-## Prompt
-$message[prompt]]
+Hmm..$randomText[I'm not sure about that one;I don't know that one;I'm unsure what you mean;I'm struggling to think]! I've not just sent a message to the developers about your prompt so they can add it $randomString[to my ai;to me].
 $endif
