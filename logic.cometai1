@@ -1,5 +1,5 @@
 $if[$checkContains[$toLowercase[$message[prompt]];what is comet;what's comet]==true]
 Comet is a team of software engineers and designers who create products out of passion.
 $else
-Hmm..$randomText[I'm not sure about that one;I don't know that one;I'm unsure what you mean;I'm struggling to think]! I've not just sent a message to the developers about your prompt so they can add it $randomString[to my ai;to me].
+Hmm..$randomText[I'm not sure about that one;I don't know that one;I'm unsure what you mean;I'm struggling to think]! I've not just sent a message to the developers about your prompt so they can add it $randomText[to my ai;to me].
 $endif
